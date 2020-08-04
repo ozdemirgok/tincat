@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+p{
+    color:  #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 3% 13%;
+}
+
+/* Title Section */
+
+#title{
+    background: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.row h1{
+    
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0px 15px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title-Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+/* Section Features */
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+}
+
+#features i{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+#features i:hover{
+    color: #ff4c68;
+}
+
+#features h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+/* İmages */
+
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width:991px){
+    #title{
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Cta */
+
+#cta{
+    background-color: #ff4c68;  
+}
+
+#cta button{
+    margin: 1rem;
+}
+
+/* Footer */
+
+#footer{
+}
+
+#footer i{
+    margin: 1%;
+}
+
+#footer p{
+    color: #8f8f8f;
+    padding-top: 3%;
+}
